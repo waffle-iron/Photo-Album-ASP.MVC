@@ -24,10 +24,6 @@ namespace PhotoAlbum.Database.Entities
                 .Property(e => e.Expansion)
                 .IsFixedLength();
 
-            modelBuilder.Entity<Image>()
-                .Property(e => e.Size)
-                .IsFixedLength();
-
             modelBuilder.Entity<User>()
                 .HasMany(e => e.Albums)
                 .WithRequired(e => e.User)
