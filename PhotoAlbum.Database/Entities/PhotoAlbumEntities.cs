@@ -1,6 +1,6 @@
 using System.Data.Entity;
 
-namespace PhotoAlbum.Database
+namespace PhotoAlbum.Database.Entities
 {
     public class PhotoAlbumEntities : DbContext
     {

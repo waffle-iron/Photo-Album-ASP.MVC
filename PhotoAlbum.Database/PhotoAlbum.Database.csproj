@@ -52,11 +52,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Album.cs" />
-    <Compile Include="Image.cs" />
-    <Compile Include="PhotoAlbumEntities.cs" />
+    <Compile Include="Entities\Album.cs" />
+    <Compile Include="Entities\Image.cs" />
+    <Compile Include="Entities\PhotoAlbumEntities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="Entities\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
