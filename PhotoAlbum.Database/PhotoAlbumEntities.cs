@@ -1,7 +1,7 @@
+using System.Data.Entity;
+
 namespace PhotoAlbum.Database
 {
-    using System.Data.Entity;
-
     public class PhotoAlbumEntities : DbContext
     {
         public PhotoAlbumEntities()
