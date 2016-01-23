@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Web", "PhotoAlbum\PhotoAlbum.Web.csproj", "{6AC7775E-6C5A-46A7-8EF6-57F8786E6EE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Database", "PhotoAlbum.Database\PhotoAlbum.Database.csproj", "{E50CC3C0-6F11-4981-BBEB-2FC467E956B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbum.Domain", "PhotoAlbum.Database\PhotoAlbum.Domain.csproj", "{E50CC3C0-6F11-4981-BBEB-2FC467E956B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,11 +1,12 @@
 using System.Data.Entity;
+using PhotoAlbum.Domain.Entities;
 
-namespace PhotoAlbum.Database.Entities
+namespace PhotoAlbum.Domain
 {
-    public class PhotoAlbumEntities : DbContext
+    public class PhotoAlbumContext : DbContext
     {
-        public PhotoAlbumEntities()
-            : base("name=PhotoAlbumEntities")
+        public PhotoAlbumContext()
+            : base("name=PhotoAlbumContext")
         {
         }
 

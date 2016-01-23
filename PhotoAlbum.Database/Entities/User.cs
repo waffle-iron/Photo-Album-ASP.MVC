@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics.CodeAnalysis;
 
-namespace PhotoAlbum.Database.Entities
+namespace PhotoAlbum.Domain.Entities
 {
     [Table("User")]
     public class User

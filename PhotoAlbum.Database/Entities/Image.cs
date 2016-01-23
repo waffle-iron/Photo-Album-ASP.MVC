@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace PhotoAlbum.Database
+namespace PhotoAlbum.Domain.Entities
 {
     [Table("Image")]
     public class Image
